@@ -1,5 +1,6 @@
 package com.example.srishty.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -14,8 +15,12 @@ public class MainActivity extends AppCompatActivity {
         final Button button = (Button) findViewById(R.id.education);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Intent i=new Intent(
+                        MainActivity.this,
+                        education.class);
+                startActivity(i);
 
-                }
+            }
                     });
           }
     }
