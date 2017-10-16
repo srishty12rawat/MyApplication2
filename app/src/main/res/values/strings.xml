@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="ind">Chief Executive Officer</string>
+    <string name="stark">Stark Industries</string>
+    <string name="part">Iron Man (Part Time)</string>
+    <string name="america">United States of America</string>
+    <string name="name">Srishty Rawat</string>
+    <string name="mail">rawatsrishty98@gmail.com</string>
+    <string name="num">8877665524</string>
+    <string name="mit">Massachusetts Institute of Technology</string>
+    <string name="phy">Masters in Physics</string>
+    <string name="bach">Bachelors in Electrical Engineering</string>
+    <string name="ee">Masters in Electrical Engineering</string>
+    <string name="ed">education</string>
+    <string name="we">work experience</string>
 </resources>

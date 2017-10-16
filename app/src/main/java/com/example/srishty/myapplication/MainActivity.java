@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
                     });
 
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
         final Button button2 = (Button) findViewById(R.id.work);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -33,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
+
             final ImageButton ib  = (ImageButton) findViewById(R.id.picture);
             ib.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
@@ -42,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(i);
 
                 }
-            });
+          });
+
+
+
         }}
 
